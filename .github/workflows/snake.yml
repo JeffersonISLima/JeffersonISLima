@@ -1,12 +1,9 @@
 name: Generate Snake
 
 on:
-  # Gera a animação todo dia à meia-noite (UTC)
   schedule:
-    - cron: "0 0 * * *"
-  # Permite rodar manualmente em Actions > Generate Snake > Run workflow
-  workflow_dispatch:
-  # Também roda quando você fizer push na branch main (opcional)
+    - cron: "0 0 * * *"     # roda todo dia à meia-noite (UTC)
+  workflow_dispatch:         # permite rodar manualmente
   push:
     branches:
       - main
@@ -19,21 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Gera o SVG da cobrinha
       - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: JeffersonISLima
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Move para a pasta output/ (igual ao exemplo que você curtiu)
-      - name: Prepare output folder
-        run: |
-          mkdir -p output
-          mv dist/github-contribution-grid-snake-dark.svg output/github-contribution-grid-snake-dark.svg
-
-      # Faz commit do arquivo gerado
       - name: Commit and push snake SVG
         uses: EndBug/add-and-commit@v9
         with:
