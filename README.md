@@ -27,18 +27,6 @@ Trabalho principalmente com **Node.js, PHP, Python, Go e PostgreSQL**, construin
 
 <div align="center">
 
-| 📧 **Email** | 💼 **LinkedIn** | 🐙 **GitHub** |
-| ------------ | --------------- | ------------- |
-| [jeffersoninacio@hotmail.com](mailto:jeffersoninacio@hotmail.com) | [linkedin.com/in/jeffersonislima](https://www.linkedin.com/in/jeffersonislima) | [github.com/JeffersonISLima](https://github.com/JeffersonISLima) |
-
-</div>
-
----
-
-## 💼 Minhas Redes Sociais
-
-<div align="center">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeffersonislima)
 [![Email](https://img.shields.io/badge/Email-DB4437?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeffersoninacio@hotmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JeffersonISLima)
